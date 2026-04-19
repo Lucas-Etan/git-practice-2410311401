@@ -1,0 +1,102 @@
+# 1. 编译产物（可执行文件、中间文件）
+*.exe
+*.exe~
+*.out
+*.app
+
+# 2. 编译中间文件
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+
+# 3. 调试和发布目录
+/bin/
+/build/
+/Debug/
+/Release/
+/x64/
+/x86/
+
+# 4. CMake 生成文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# 5. IDE 配置文件
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.sln.docstates
+*.vcxproj.user
+Debug/
+Release/
+*.VC.db
+*.VC.opendb
+
+## VS Code
+.vscode/
+*.code-workspace
+
+## CLion
+.idea/
+cmake-build-*/
+
+## CodeBlocks
+*.cbp
+*.depend
+*.layout
+cb_console_runner.xml
+
+## Qt Creator
+*.user*
+*.creator.user*
+*.creator.user.prefs
+
+## Xcode
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata
+DerivedData/
+
+# 6. 编译输出
+*.log
+*.tmp
+*.temp
+*.dump
+*.stackdump
+
+# 7. 测试和性能文件
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+
+# 8. 包管理器和依赖
+vcpkg_installed/
+vcpkg-manifest-install/
+conanbuildinfo.*
+conaninfo.txt
+conan_imports_*
+conan_environment.sh
+
+# 9. 系统生成的文件
+.DS_Store
+Thumbs.db
+*.swp
+*~
+*.bak
+
+# 10. 其他
+*.code-workspace
+compile_commands.json
